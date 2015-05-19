@@ -1,14 +1,14 @@
 {
-  "name": "html-virtualize",
-  "version": "0.3.0",
+  "name": "virtualize-html",
+  "version": "0.1.2",
   "description": "Parse HTML into virtual-dom tree.",
-  "main": "lib/virtualize.js",
+  "main": "dist/virtualize.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/alexmingoia/html-virtualize.git"
+    "url": "git://github.com/simplydenis/html-virtualize.git"
   },
   "keywords": [
     "html",
@@ -17,15 +17,21 @@
     "vtree",
     "virtualize"
   ],
-  "author": "Alex Mingoia <talk@alexmingoia.com>",
+  "author": "Denis Peroni <simplydenis@hotmail.it>",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/alexmingoia/html-virtualize/issues"
+    "url": "https://github.com/simplydenis/html-virtualize/issues"
   },
-  "homepage": "https://github.com/alexmingoia/html-virtualize",
+  "homepage": "https://github.com/simplydenis/html-virtualize",
   "devDependencies": {
+    "browserify": "^10.2.0",
     "expect.js": "^0.3.1",
-    "mocha": "^1.20.1"
+    "gulp": "^3.8.11",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.4",
+    "mocha": "^1.20.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
     "htmlparser2": "^3.7.2",
